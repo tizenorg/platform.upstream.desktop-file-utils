@@ -1,0 +1,8 @@
+Change-Id: I8629586a4c16364cbec82d468b3ceca4f98fa7a4
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:40:48 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4736
+Project: platform/upstream/desktop-file-utils
+Branch: refs/heads/tizen
