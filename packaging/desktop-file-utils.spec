@@ -7,7 +7,7 @@ Group:          Development/Tools/Other
 Url:            http://www.freedesktop.org/wiki/Software/desktop-file-utils
 Source0:        http://www.freedesktop.org/software/desktop-file-utils/releases/%{name}-%{version}.tar.xz
 Source2:        macros.desktop-file-utils
-Source1001: 	desktop-file-utils.manifest
+Source1001:     desktop-file-utils.manifest
 BuildRequires:  glib2-devel
 BuildRequires:  pkg-config
 # Only needed because we don't (and won't) support building xz tarballs by default... See bnc#697467
@@ -48,7 +48,8 @@ touch %{buildroot}%{_datadir}/applications/mimeinfo.cache
 %files
 %manifest %{name}.manifest
 %defattr(-, root, root)
-%doc AUTHORS COPYING ChangeLog NEWS README
+%license COPYING
+%doc AUTHORS ChangeLog NEWS README
 %{_bindir}/desktop-file-edit
 %{_bindir}/desktop-file-install
 %{_bindir}/desktop-file-validate
@@ -64,4 +65,3 @@ touch %{buildroot}%{_datadir}/applications/mimeinfo.cache
 %{_datadir}/emacs/site-lisp/*.el*
 %{_sysconfdir}/rpm/macros.desktop-file-utils
 
-%changelog
