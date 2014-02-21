@@ -1,3 +1,11 @@
+Code-Review+2: Patrick McCarty <patrick.mccarty@linux.intel.com>
+Verified+1: Philippe Coval <philippe.coval@open.eurogiciel.org>
+Submitted-by: Patrick McCarty <patrick.mccarty@linux.intel.com>
+Submitted-at: Fri, 21 Feb 2014 14:59:36 -0800
+Reviewed-on: https://review.tizen.org/gerrit/16343
+Project: platform/upstream/desktop-file-utils
+Branch: refs/heads/tizen
+
 Reviewed-on: https://review.tizen.org/gerrit/16343
 Project: platform/upstream/desktop-file-utils
 Branch: refs/heads/tizen
